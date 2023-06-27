@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\VisualStudio\LinearMap\LinearMap\main.cpp(18,10): warning C4101: 'dy' :참조되지 않은 지역 변수입니다.
+C:\VisualStudio\LinearMap\LinearMap\main.cpp(19,10): warning C4101: 'ratio' :참조되지 않은 지역 변수입니다.
+C:\VisualStudio\LinearMap\LinearMap\main.cpp(17,10): warning C4101: 'dx' :참조되지 않은 지역 변수입니다.
+  LinearMap.vcxproj -> C:\VisualStudio\LinearMap\x64\Debug\LinearMap.exe
