@@ -14,7 +14,7 @@
     <ProjectGuid>{8F09D62B-4BEE-4D09-B004-DAE68463E204}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>TF_Rotation</RootNamespace>
-    <ProjectName>2023_07_18_TF_Rotation_2D</ProjectName>
+    <ProjectName>2023_07_19_TF_Rotation_2D</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
