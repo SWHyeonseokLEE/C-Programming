@@ -1,4 +1,4 @@
-// TF_Rotation.cpp : ÄÜ¼Ö ÀÀ¿ë ÇÁ·Î±×·¥¿¡ ´ëÇÑ ÁøÀÔÁ¡À» Á¤ÀÇÇÕ´Ï´Ù.
+// TF_Rotation.cpp : ì½˜ì†” ì‘ìš© í”„ë¡œê·¸ë¨ì— ëŒ€í•œ ì§„ì…ì ì„ ì •ì˜í•©ë‹ˆë‹¤.
 //
 
 #include "stdafx.h"
@@ -74,7 +74,6 @@ void TF_base_link_map_map(Point2D* Transformed, Pose2D base_link_origin)
 
 void TF_base_link_map(Point2D* base_link_point_2d, Point2D* base_link_map_point2d, Pose2D base_link_origin)
 {
-	set_rotation_matrix(base_link_origin.theta);
 	TF_base_link_base_link_map(base_link_point_2d, base_link_map_point2d, base_link_origin);
 	TF_base_link_map_map(&Transformed, base_link_origin);
 }
